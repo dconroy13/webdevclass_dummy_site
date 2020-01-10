@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-size: 5rem;
+  font-family: 'Dancing Script', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3, a {
+  font-family: 'Titillium Web', sans-serif;
+  color: #11999e;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  color: #40514e;
+}
+
+.dotted-hr {
+  margin: 60px auto;
+  width: 10%;
+  border: none;
+  border-top: 10px dotted #eaf6f6;
+  background-color: white;
+}
+
+.profile-pic {
+  width: 25%;
+  margin-top: 4rem;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.climb-skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.game-skill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #edf7fa;
+  padding-top: 100px;
+  position: relative;
+}
+
+.contact-btn {
+  margin: 0 0 50px;
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.contact-btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px;
+}
+
+.footer-link {
+  margin: 40px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6
+}
